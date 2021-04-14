@@ -1,0 +1,39 @@
+p{
+    /*comentario en CSS*/
+    color:green; /* color de fuente*/
+    font-family: Arial, Helvetica,sans-serif; /*fuente*/ 
+    font-size: 25px; /*tamaño de la fuente*/
+    }
+h2{
+    color: lightblue;
+    background-color: yellow;/*fondo*/
+} 
+
+h1{
+    text-transform: uppercase; /*pasa a mayuscula*/
+}
+
+/*cuando utilizo . > quiere decir que en el html use clases (tipo de selector)*/
+.destacados{
+    color: blue;
+}
+
+.destacados2{
+    color: red;
+    font-weight: bold; /* peso */
+    font-style: italic; /* variantes*/
+}
+/* cuando me encuentro con un # > en el html use id*/
+#bienvenidos{
+    background-color: blue;
+    width: 300px;
+    height: 500px;
+  }
+
+#bienvenidos p{
+      color: white;
+      text-align: right;
+      padding: 20px;
+} 
+
+/*regla compuesta */

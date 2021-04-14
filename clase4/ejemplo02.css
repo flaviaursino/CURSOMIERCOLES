@@ -1,0 +1,14 @@
+p{
+    /*comentario en CSS*/
+    color:green; /* color de fuente*/
+    font-family: Arial, Helvetica,sans-serif; /*fuente*/ 
+    font-size: 25px; /*tamaño de la fuente*/
+    }
+h2{
+    color: lightblue;
+    background-color: yellow;/*fondo*/
+} 
+
+h1{
+    text-transform: uppercase; /*pasa a mayuscula*/
+}

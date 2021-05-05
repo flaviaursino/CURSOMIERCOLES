@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <style type="text/css">
+/*
+    La regla arroba @keyframes permite a los autores controlar los pasos 
+	intermedios en una secuencia de animación CSS mediante el establecimiento
+	de keyframes (o puntos de trayectoria) */
+        
+        .swing
+        {
+            margin:121px 149px;
+            
+            width:483px;
+            height:298px;
+            
+            background:#676470;
+            color:#fff;
+            
+            font-family:arial;
+            font-weight:900;
+            font-size:3.4em;
+            
+            text-align:center;
+            line-height:298px;
+            
+            transition:all 0.3s ease;
+            }
+
+      /*  Para obtener una lista de keyframe que sea válida, debe incluir 
+	  reglas para al menos los tiempos  0% (o desde) y 100% (o hacia)
+	  (o sea, los estados inicial y final de la animación).*/
+        
+         
+        @keyframes swing
+        {
+            15% { transform: translateX(15px); background-color: red; }
+            
+            30% { transform: translateX(-25px); background-color: blue; }
+            
+            50% { transform: translateX(33px);  background-color: green;  }
+            
+            65% { transform: translateX(-3px);  background-color: yellow;  }
+            
+            80% { transform: translateX(12px);  background-color: orange;  }
+            
+            100% { transform: translateX(0);  background-color: red;  }
+        }
+        
+        .swing:hover
+        {
+          animation: swing 1s ease;
+          animation-iteration-count: infinite;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="swing">Swing</div>
+    
+</body>
+</html>
